@@ -8,10 +8,10 @@ import {
   Subscribe,
   Footer
 } from "./Sections/AllSectionExport";
-
+import Nav from "./Components/Nav";
 const App = () => (
   <main className="relative">
-    nav
+    <Nav />
     <section className="xl:padding-1 wide:padding-r padding-b">
       <Hero />
     </section>
