@@ -20,8 +20,12 @@ const Hero = () => {
           <span className="text-coral-red inline-block mt-3">Nike</span> Shoes
         </h1>
         <p className="font-montserrat text-slate-gray mb-14 max-xl:mb-9 mt-6 text-lg leading-8 sm:max-w-sm ">Get the best best best best quality shoes at the best prices</p>
-        <Button label="Shop Now"
-          iconUrl={arrowRight} />
+        <div className="mt-4 flex flex-wrap gap-4">
+          <Button label="Shop Now"
+            iconUrl={arrowRight} />
+          <Button label="Learn More" bgColor = "bg-white"
+                    borderColor ="border-slate-gray" textColor="text-slate-gray"/>
+        </div>
         <div className="flex w-full justify-start items-start flex-wrap mt-10 max-xl:gap-40 gap-16 ">
           {statistics.map((stat) => (
             <div key={stat.label} className=" ">
