@@ -23,8 +23,8 @@ const Hero = () => {
         <div className="mt-4 flex flex-wrap gap-4">
           <Button label="Shop Now"
             iconUrl={arrowRight} />
-          <Button label="Learn More" bgColor = "bg-white"
-                    borderColor ="border-slate-gray" textColor="text-slate-gray"/>
+          <Button label="Learn More" bgColor="bg-white"
+            borderColor="border-slate-gray" textColor="text-slate-gray" />
         </div>
         <div className="flex w-full justify-start items-start flex-wrap mt-10 max-xl:gap-40 gap-16 ">
           {statistics.map((stat) => (
@@ -50,7 +50,8 @@ const Hero = () => {
               <ShoeCard
                 imgUrl={shoe}
                 changeBigShoeImg={(shoe) => {
-                  setBigShoeImg(shoe) }}
+                  setBigShoeImg(shoe)
+                }}
                 bigShoeImg={bigShoeImg} />
             </div>
           ))}
