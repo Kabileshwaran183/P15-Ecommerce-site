@@ -19,7 +19,7 @@ const Hero = () => {
           <br />
           <span className="text-coral-red inline-block mt-3">Nike</span> Shoes
         </h1>
-        <p className="font-montserrat text-slate-gray mb-14 max-xl:mb-9 mt-6 text-lg leading-8 sm:max-w-sm ">Get the best best best best quality shoes at the best prices</p>
+        <p className="font-montserrat text-slate-gray mb-14 max-xl:mb-9 mt-6 text-lg leading-8 sm:max-w-sm ">Get the Best Quality Shoes from the Most Branded Company.</p>
         <div className="mt-4 flex flex-wrap gap-4">
           <Button label="Shop Now"
             iconUrl={arrowRight} />
@@ -42,7 +42,7 @@ const Hero = () => {
           width={500}
           height={430}
           className=" relative
-            object-contain z-10" />
+            object-contain z-10 " />
         <div className="flex absolute justify-center items-center  bottom-[-5%]
                         gap-4 sm:6 max-sm:px-6">
           {shoes.map((shoe, index) => (
