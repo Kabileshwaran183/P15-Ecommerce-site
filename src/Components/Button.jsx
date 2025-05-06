@@ -6,7 +6,7 @@ const Button = ({ label, iconUrl, bgColor, borderColor, textColor, fullWidth }) 
                         ${bgColor
                 ? `${bgColor} ${borderColor} ${textColor} `
                 : "bg-coral-red border-coral-red text-white"
-            } rounded-full ${fullWidth && "w-full"}`}>
+            } rounded-full ${fullWidth && "w-full"} transition duration-300 ease-in-out hover:brightness-90 focus:outline-none focus:ring-2 focus:ring-coral-red focus:ring-offset-2`}>
             {label}
             {iconUrl && <img src={iconUrl}
                 alt="arrow-right-icon"

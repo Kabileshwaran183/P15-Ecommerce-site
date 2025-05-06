@@ -9,10 +9,10 @@ const Hero = () => {
   return (
     <section id="home"
       className=" w-full flex xl:flex-row flex-col justify-center
-                      gap-10 max-container max-xl:padding min-h-screen max-sm:px-1"
+                      gap-10 max-container max-xl:padding min-h-screen max-sm:px-1 animate-fadeIn"
     >
       <div className="relative  w-full xl:w-2/5 flex flex-col
-                      justify-center items-start  xl:pt-28 sm:pt-8 max-xl:padding-l">
+                      justify-center items-start  xl:pt-28 sm:pt-8 max-xl:padding-l animate-slideInUp">
         <p className="text-xl text-coral-red font-montserrat mt-5">Our Collection</p>
         <h1 className="font-palanquin max-sm:text-4xl mt-10 max-xl:mt-6 text-8xl max-sm:text-[72px] max-sm:leading-[60px] xl:leading-[120px] font-bold ">
           <span className="xl:bg-white  xl:whitespace-nowrap relative z-10 pr-10 ">The New Arrival</span>
