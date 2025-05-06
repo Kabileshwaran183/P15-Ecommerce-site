@@ -42,6 +42,7 @@ const Hero = () => {
           alt="shoe1"
           width={500}
           height={430}
+          loading="lazy"
           className=" relative
             object-contain z-10 max-xl:max-h-[300px] max-sm:max-h-[200px]" />
         <div className="flex absolute justify-center items-center  bottom-[-5%]

@@ -5,9 +5,9 @@ import Button from "../Components/Button"
 const SuperQuality = () => {
   return (
     <section id="Super-quality"
-      className="flex justify-between gap-10 items-center w-full max-container max-lg:flex-col ">
+      className="flex justify-between gap-10 items-center w-full max-container max-lg:flex-col animate-fadeIn">
 
-      <div className="flex flex-1 flex-col">
+      <div className="flex flex-1 flex-col animate-slideInUp">
 
         <h2 className="font-palanquin capitalize text-4xl font-bold lg:max-w-lg">
           We Provide you
@@ -24,7 +24,8 @@ const SuperQuality = () => {
         <img src={shoe8}
           alt="shoe8"
           height={522}
-          width={570} />
+          width={570}
+          loading="lazy" />
       </div>
 
 
